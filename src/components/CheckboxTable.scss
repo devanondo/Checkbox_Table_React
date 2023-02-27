@@ -1,0 +1,98 @@
+body {
+  margin: 0px;
+
+  background: #f4f3f3;
+}
+
+.permission_wrapper {
+  overflow-x: scroll;
+  .permissions_table {
+    min-width: 700px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+
+    .all {
+      list-style: none;
+      input {
+        &.allcheckbox {
+          position: absolute;
+          top: 10px;
+          left: 40px;
+          width: 16px;
+          height: 16px;
+        }
+      }
+      .all {
+        display: none;
+      }
+    }
+
+    ul {
+      margin: 0;
+      padding: 0;
+    }
+
+    .module {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 0;
+
+      .left {
+        padding-left: 80px;
+      }
+
+      ul {
+        display: flex;
+        list-style: none;
+        li {
+          width: 82px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+    }
+
+    label {
+      &.create,
+      &.edit,
+      &.view,
+      &.delete {
+        display: none;
+      }
+    }
+
+    .create,
+    .edit,
+    .view,
+    .delete {
+      border: none !important;
+      background-color: transparent !important;
+      margin: 5px 10px 5px 20px !important;
+      span {
+        padding-left: 20px;
+      }
+    }
+    span {
+      padding-left: 20px;
+      &.create,
+      &.edit,
+      &.view,
+      &.delete {
+        display: none;
+      }
+    }
+
+    .checkbox {
+      margin: 10px 20px !important;
+    }
+    .even {
+      border: 1px solid white;
+      input {
+        padding: 0 20px !important;
+      }
+    }
+  }
+}
