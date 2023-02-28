@@ -19,8 +19,8 @@ sudo npm i -g yarn
 
 2. Install `eslint` and `prettier` extension in your `vscode`.
 
-3. Clone project on your local machine by running `git clone https://github.com/Solutya/sol-ems-fe.git`
+3. Clone project on your local machine by running `git clone https://github.com/devanondo/Checkbox_Table_React.git`
 
-4. Go to the project directory `sol-ems-fe` and run `yarn` then `yarn prepare`.
+4. Go to the project directory `Checkbox_Table_React` and run `yarn` then `yarn prepare`.
 
 5. Finally run `yarn dev` to start the dev server.
